@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Camera Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <span class="header-title">Live Camera Detection</span>
+    </header>
+    <main>
+        <p id="info-text">Allow camera access. Detection will run automatically and results will appear below in real time.</p>
+        <video id="video" autoplay playsinline></video>
+        <div class="detection-area">
+            <img id="result" alt="Detection result will appear here">
+        </div>
+    </main>
+    <footer class="main-footer">
+        &copy; 2024 | YOLOv8 Real-Time Detection Demo
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
